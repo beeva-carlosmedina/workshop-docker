@@ -8,4 +8,4 @@ ADD artifacts/* /usr/bin
 # Ports
 EXPOSE 8000 
 # Run
-CMD ["api", "--listen", ":80"]
+CMD ["api", "--listen", ":8000"]
