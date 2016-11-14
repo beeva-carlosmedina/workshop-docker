@@ -6,6 +6,6 @@ MAINTAINER genDevOps
 ADD artifacts/* /usr/bin
 
 # Ports
-EXPOSE 3434
+EXPOSE 8000 
 # Run
 CMD ["api", "--listen", ":80"]
